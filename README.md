@@ -1,11 +1,8 @@
-# EXPERIMENT--01-ALP-FOR-8086
+## EXPERIMENT--01-ALP-FOR-8086
 
-Name Santhosh S
+## Name:Santhosh S
 
-Roll no : 2122222100047
-
-
-
+## Roll no : 2122222100047
 
 ## Aim: 
 To Write and execute ALP on fundamental arithmetic and logical operations
@@ -49,7 +46,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
 name "ADDITION"
 org 100h
 MOV AH,05H;
@@ -59,7 +56,7 @@ MOV CH,AH;
 MOV AH,0H; 
 MOV BH,0H;
 HLT;
-
+```
 
 ## Output  
 ### AH and BH registers for ADDITION
@@ -74,7 +71,7 @@ HLT;
 ![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
 
 ## Subtraction   of 8 bit numbers  ALP 
-
+```
 name "SUBTRACTION"
 org 700h
 MOV AH,7H;
@@ -84,7 +81,7 @@ MOV CH,AH;
 MOV AH,0H;
 MOV BH,0h;
 HLT;
-
+```
 
 ## Output  
 ### AH and BH registers for SUBTRACTION
@@ -100,7 +97,7 @@ HLT;
 
 
 ## Multiplication alp 
-
+```
 name "MULTIPLICATION"
 org 700h
 MOV AX,5H;
@@ -110,6 +107,7 @@ MOV CX,AX;
 MOV AX,0H;
 MOV BX,0h;
 HLT;
+```
 
 ## Output  
 ### AX and BX registers for MULTIPLICATION
@@ -123,10 +121,8 @@ HLT;
 ### Flags:
 ![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
 
-
-
 ## Division alp 
-
+```
 name "DIVISION"
 org 700h
 MOV AX,9H;
@@ -136,6 +132,7 @@ MOV CX,AX;
 MOV AX,0H;
 MOV BX,0h;
 HLT;
+```
 
 ## Output  
 ### AX and BX registers for DIVISION
